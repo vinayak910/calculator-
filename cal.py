@@ -1,6 +1,7 @@
 
 import addition
 import multiplication
+import division
 
 num = input("""Select the operation :
       operation available : 
@@ -16,4 +17,5 @@ if num== "1":
     print( addition.addition(num1 , num2))
 elif num == '4':
     print(multiplication.mul(num1 , num2))
-
+elif num== '3':
+    print(division.div(num1 , num2))
